@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+a:hover{
+	-webkit-transition: all.4s ease;
+	-moz-transition: all.4s ease;
+	-o-transition: all.4s ease;
+	-ms-transition: all.4s ease;
+	transition: all.4s ease;
+	color: 
+}
+
+a{
+	font-size: 2em;
+}
+
+h1{
+	margin-top: 20px;
+}
+
+
+.even_header{
+	float: left;
+	background: rgba(180,238,177, 0.2);
+	margin-top: 150px;
+	margin-left: 90px;
+	margin-bottom: 80px;
+	padding: 20px;
+	border-radius: 15px;
+
+}
+
+.odd_header{
+	background: rgba(180,238,177, 0.2);
+	float: right;
+	margin-top: 150px;
+	margin-right: 90px;
+	margin-bottom: 80px;
+	padding: 20px;
+	border-radius: 15px;
+
+}
+
+.even_form{
+	float: left;
+	width: 50%;
+	border-right: 1px solid rgba(180,238,177, 0.2);
+	border-top: 2px solid rgba(180,238,177, 0.2);
+
+	
+}
+
+.odd_form{
+	float: right;
+	width: 50%;
+	border-left: 1px solid rgba(180,238,177, 0.2);
+	border-top: 2px solid rgba(180,238,177, 0.2);
+
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+h4{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	position: sticky;
+	top: 0;
+	z-index: 11;
+	text-align: center;
+	background-color: rgb(205,238,234);
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+}
+
+.day{
+	float: left;
+	width: relative;
+}
+
+.lessons{
+	float: left;
+	background: rgba(180,238,177, 0.2);
+	margin-left: 14px;
+	border-radius: 5px;
+	width: 220px;
+}
+
+h5{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.group_header{
+	margin-left: 10px;
+	font-weight: bold;
+	position: sticky;
+	top: 40px;
+	left: 0;
+	z-index: 11;
+	background-color: rgb(205,238,234);
+	color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.save_left{
+	float: left;
+	margin-top: 100px;
+	position: fixed;
+	left: 50px;
+	bottom: 50px;
+	text-align: center;
+	height: 50px;
+	width: 120px;
+	background-color: rgb(205,238,234);
+	color: black;
+	z-index: 12;
+}
+
+.save_right{
+	float: left;
+	margin-top: 100px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	text-align: center;
+	height: 50px;
+	width: 120px;
+	background-color: rgb(205,238,234);
+	color: black;
+	z-index: 12;
+}
+
+.save_left:hover, .save_right:hover{
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	height: 70px;
+	width: 150px;
+	cursor: pointer;
+	background-color: rgb(130,151,148);
+	color: black;
+
+
+}
+
+input{
+	z-index: 10;
+}
+
+.form form {
+	height: 250px;
+	max-width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: #F0FCEF;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	margin-top: 250px;
+}
+
+.form form:hover{
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.44);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.44);
+	-o-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.44);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.44);
+
+}
+.enter{
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+}
+
+.enter:hover{
+	background-color: #CDEEEA;
+	cursor: pointer;
+}
+
+.authorization{
+	background-color: #EBEDEE;
+
+}
+
+
+.notAuth{
+	text-align: center;
+	margin-top: 300px;
+}
+
+.notAuth span{
+	font-size: 1.5em;
+	color: red;
+}
+
+.notAuth a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: green;
+}
+
+.notAuth a:hover{
+	color: red;
+}
+
+.exit{
+	font-size: 1.3em; 
+	text-decoration: none; 
+	color:black; 
+	padding: 10px;
+	background-color: #F0FCEF;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+.exit:hover{
+	color: red;
+	background-color: black;
+	text-decoration: none;
+
+}
